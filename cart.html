@@ -9,10 +9,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,400&display=swap" rel="stylesheet">
-    <title>Registration</title>
-</head> 
-<body> 
-    <header class="header">
+    <title>Cart</title>
+</head>
+<body>
+<header class="header">
         <div class="container header__wrp">
         <div class="header__container">
             <img class="header__logo" src="img/logo.svg" alt="logo">
@@ -47,51 +47,72 @@
             </ul>
         </div>    
     </header>
-    <main>
-        <section class="main__registration">
-            <div class="container">
-            <h3 class="main__registration-title">registration</h3>
-            </div>
-        </section>
-        <section class="form__registration container">
-            <div class="form__registration-list">
-                <form class="form__registration-input"action="#">
-                    <p class="form__text-input">Your Name</p><br> 
-                    <label>
-                        <input class="form__input-text-one" type="text" placeholder="First Name"><br>
-                    </label>
-                    <label>
-                        <input class="form__input-text-two" type="text" placeholder="Last Name"><br>
-                    </label>
-                    <label class="form__input-radio-male"><input type="radio" name="title" value="mrs"><span class="form__input-radio-male-span">Male</span></label>
-                    <label class="form__input-radio-female"><input type="radio" name="title" value="mrs"><span class="form__input-radio-female-span">Female</span></label>
-                    <p class="form__text-input-registration">Login details</p>
-                    <label>
-                        <input class="form__input-text-email" type="text" placeholder="Email"><br>
-                    </label>
-                    <label>
-                        <input class="form__input-text-password" type="password" placeholder="Password">
-                    </label>
-                    <p class="form__text-input-form">Please use 8 or more characters, with at least 1 number and a mixture of uppercase and lowercase letters</p>
-                </form>
-                    
-            </div>
-            <div class="benefits">
-                <h2 class="benefits__title">loyalty has its perks</h2>
-                <p class="benefits__text">Get in on the loyalty program where you can earn points and unlock serious perks. Starting with these as soon as you join:</p>
-                    <ul class="benefits__list">
-                        <li class="benefits__item">15% off welcome offer</li>
-                        <li class="benefits__item">Free shipping, returns and exchanges on all orders</li>
-                        <li class="benefits__item">$10 off a purchase on your birthday</li>
-                        <li class="benefits__item">Early access to products</li>
-                        <li class="benefits__item">Exclusive offers & rewards</li>
-                    </ul>
-            </div>
-        </section>
-        <div class="button__input-registration-join container">
-            <a href="#" class="button__input-registration">join now</a> 
+    <main>  
+        <section class="main__shopping-cart">
+        <div class="container">
+            <h3 class="main__shopping-cart-title">shopping cart</h3>
         </div>
-    </main>    
+        </section>
+        <div class="shopping__cart-people container">
+        <section class="shopping__people-t-shirt">
+            <img src="img/Rectangle-man.jpg" alt="man">
+        </section>
+        <ul class="shopping__list-menu">
+            <li class="shopping__link-menu">
+                <h2 class="shopping__title-menu">mango  people  t-shirt</h2>
+                <p class="shopping__text-menu-price">Price:<span class="hopping__price-menu">$300</span></p>
+                <p class="shopping__text-menu-color">Color: Red</p>
+                <p class="shopping__text-menu-size">Size: Xl</p>
+                <p class="shopping__text-menu-quantity">Quantity:<span class="shopping__text-menu-quantity-number">2</span></p>
+            </li>
+        </ul>
+        <section class="shopping__nav">
+        <h3 class="shopping__title_nav">shipping adress</h3>
+        <form class="nav__shopping-input" action="#">
+            <label>
+                <input class="form__input-bangladesh" type="text" placeholder="Bangladesh"><br>
+            </label>
+            <label>
+                <input  class="form__input-state" type="text" placeholder="State"><br>
+            </label>
+            <label>
+                <input class="form__input-postcode" type="text" placeholder="Postcode / Zip"><br>
+            </label>
+            <button class="button__form-quote" type="submit">get a quote</button>
+        </form>
+        </section>
+        </div>
+        <div class="shopping__cart-people-negro container">
+        <section class="shopping__people-t-shirt">
+            <img src="img/Rectangle-man-negro.jpg" alt="negro">
+        </section>    
+            <ul class="shopping__list-menu">
+                <li class="shopping__link-menu">
+                    <h2 class="shopping__title-menu">mango  people  t-shirt</h2>
+                    <p class="shopping__text-menu-price">Price:<span class="hopping__price-menu">$300 </span></p>
+                    <p class="shopping__text-menu-color">Color: Red</p>
+                    <p class="shopping__text-menu-size">Size: Xl	</p>
+                    <p class="shopping__text-menu-quantity">Quantity:<span class="shopping__text-menu-quantity-number">2</span></p>
+                </li>
+            </ul>
+        <section class="price__menu">
+        <ul class="price__list-menu">
+            <li class="price__link-menu">
+                <p>sub total <span class="price__text-menu">$900</span></p>
+            </li>
+            <li class="price__link-menu-grand">
+                <h3 class="price__title-menu">grand total<span class="price__title-menu-price">$900</span></h3>
+            </li>
+        </ul>
+        <hr class="price__line">
+        <button class="price__button-checkout">proceed to checkout</button> 
+        </section>
+    </div>  
+    <div class="shopping__button container">
+    <button class="button__shopping-cart">clear shopping cart</button>
+    <button class="button__continue-shopping">continue shopping</button>
+    </div>
+    </main>
     <footer>
         <section class="footer">
             <div class="container">
