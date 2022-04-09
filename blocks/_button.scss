@@ -1,0 +1,85 @@
+.button__input {
+    display: inline-block;
+}
+
+.button__type-registration{
+    color: #F26376;
+    border: 1px solid #FF6A6A;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    padding: 18px 66px 17px 29px;
+    background: #FFFFFF;
+    text-transform: uppercase;
+    margin-bottom: 96px;
+    box-shadow: 17px 18px 8px 0px rgb(34 60 80 / 20%);
+}
+
+
+.button__type-registration:hover{
+    background:#F26376;
+    color: white; 
+}
+
+
+.button__form-quote{
+    font-weight: 300;
+    font-size: 11px;
+    line-height: 13px;
+    color: #4A4A4A;
+    border: 1px solid #A4A4A4;
+    width: 100px;
+    height: 34px;
+    text-transform: uppercase;
+    margin-top: 24px;
+    background: #FFFFFF;
+    border: 1px solid #A4A4A4;
+    opacity: 0.9;
+    box-shadow: 17px 18px 8px 0px rgb(34 60 80 / 20%);
+}
+
+.button__form-quote:hover{
+    background:#F26376;
+    color: white; 
+}
+
+.button__shopping-cart {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    width: 234px;
+    height: 49px;
+    box-sizing: border-box;
+    border: 1px solid #A4A4A4;
+    background: #FFFFFF;
+    text-transform: uppercase;
+    opacity: 0.8;
+    box-shadow: 17px 18px 8px 0px rgb(34 60 80 / 20%);
+}
+
+.button__continue-shopping {
+    margin-left: 180px;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    width: 234px;
+    height: 49px;
+    box-sizing: border-box;
+    background: #FFFFFF;
+    border: 1px solid #A4A4A4;
+    text-transform: uppercase;
+    opacity: 0.8;
+    box-shadow: 17px 18px 8px 0px rgb(34 60 80 / 20%);
+}
+
+.button__shopping-cart:hover{
+    background:#F26376;
+    color: white; 
+}
+
+.button__continue-shopping:hover{
+    background:#F26376;
+    color: white; 
+}
