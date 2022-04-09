@@ -435,10 +435,11 @@ body {
   font-weight: 300;
   font-size: 13px;
   line-height: 16px;
-  color: #B1B1B1;
+  color: black;
   box-sizing: border-box;
   padding-left: 17px;
-  opacity: 0.5;
+  opacity: 0.6;
+  
 }
 
 .form__input-text-two {
@@ -447,12 +448,12 @@ body {
   font-weight: 300;
   font-size: 13px;
   line-height: 16px;
-  color: #B1B1B1;
+  color: black;
   margin-top: 21px;
   box-sizing: border-box;
   padding-left: 17px;
   margin-bottom: 31px;
-  opacity: 0.5;
+  opacity: 0.6;
 }
 
 .form__input-radio-male {
@@ -493,10 +494,10 @@ body {
   font-weight: 300;
   font-size: 13px;
   line-height: 16px;
-  color: #B1B1B1;
+  color: black;
   box-sizing: border-box;
   padding-left: 17px;
-  opacity: 0.5;
+  opacity: 0.6;
 }
 
 .form__input-text-password {
@@ -505,11 +506,11 @@ body {
   font-weight: 300;
   font-size: 13px;
   line-height: 16px;
-  color: #B1B1B1;
+  color: black;
   margin-top: 21px;
   box-sizing: border-box;
   padding-left: 17px;
-  opacity: 0.5;
+  opacity: 0.6;
 }
 
 .form__text-input-form {
@@ -945,6 +946,10 @@ body {
 
 .advantages__item {
   padding-top: 103px;
+}
+
+.advantages__item-img:hover{
+  opacity: 0.5;
 }
 
 .advantages__item-title {
