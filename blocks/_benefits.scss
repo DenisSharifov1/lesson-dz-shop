@@ -1,0 +1,49 @@
+.benefits__item:hover{
+    opacity: 0.6;
+}
+
+.benefits__item{
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+    margin-bottom: 16px;
+    }
+
+
+.benefits__item{
+    position: relative;
+}
+
+.benefits__item:before {
+    content: '';
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    top: 4px;
+    left: -44px;
+    background-image: url(../img/check.svg);
+    
+}
+
+.benefits {
+    margin-left: 128px;
+    margin-top: 64px;
+}
+
+.benefits__title{
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+    text-transform: uppercase
+}
+
+.benefits__text{
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+    margin: 22px 0 21px;
+}
+    

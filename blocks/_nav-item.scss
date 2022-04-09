@@ -1,0 +1,31 @@
+.nav-item__item{
+    margin-bottom: 12px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #6F6E6E;
+    list-style: none;
+}
+
+.nav-item__item-choice{
+    text-decoration: none;
+    color: #6F6E6E;
+}
+
+
+.nav-item__item-choice:hover{
+    opacity: 0.5;
+}
+
+
+.nav-item__title {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    margin-bottom: 12px;
+    color: #F16D7F;
+    margin-bottom: 22px;
+    margin-top: 22px;
+}
