@@ -262,7 +262,6 @@ body {
   top: 100%;
   right: -350px;
   min-height: 763px;
-  background-color: #F1E4E6;
 }
 
 .header__nav-cart {
@@ -537,7 +536,7 @@ body {
   font-weight: 300;
   font-size: 13px;
   line-height: 16px;
-  color: #B1B1B1;
+  color: black;
   box-sizing: border-box;
   padding-left: 16px;
   opacity: 0.5;
@@ -551,7 +550,7 @@ body {
   font-weight: 300;
   font-size: 13px;
   line-height: 16px;
-  color: #B1B1B1;
+  color: black;
   box-sizing: border-box;
   padding-left: 16px;
   opacity: 0.5;
@@ -565,7 +564,7 @@ body {
   font-weight: 300;
   font-size: 13px;
   line-height: 16px;
-  color: #B1B1B1;
+  color:black;
   box-sizing: border-box;
   padding-left: 16px;
   opacity: 0.5;
@@ -1265,18 +1264,25 @@ body {
   margin-top: 96px;
 }
 
+.shopping__people-t-shirt{
+    display: flex;
+
+}
+
 .shopping__list-menu {
   background: #FFFFFF;
   width: 390px;
   height: 306px;
   filter: drop-shadow(17px 19px 24px rgba(0, 0, 0, 0.13));
-  position: relative;
 }
 
 .shopping__link-menu {
   margin-left: 31px;
-  position: relative;
   margin-top: 22px;
+}
+
+.shopping__link-menu-mango{
+    display: flex;
 }
 
 .shopping__title-menu {
@@ -1286,6 +1292,18 @@ body {
   color: #222222;
   text-transform: uppercase;
   width: 210px;
+  display: inline-block;
+}
+
+.shopping__img-menu{
+  margin-left: 105px;
+  opacity: 0.6;
+  border: 0;
+  background-color: white;
+}
+
+.shopping__img-menu:hover{
+  fill: #F16D7F;
 }
 
 .shopping__price-menu {
