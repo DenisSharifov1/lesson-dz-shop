@@ -364,8 +364,8 @@ body {
 
 .sales__item {
   height: 260px;
-  width: 360px;
   background-color: #544A48;
+  width: 32%;
 }
 
 .sales__item-block {
@@ -413,6 +413,10 @@ body {
   .sales__item-women {
     width: 233px;
     height: 167px;
+  }
+
+  .sales__item {
+    width: 32%;
   }
 
   .sales__item-men {
