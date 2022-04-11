@@ -181,3 +181,45 @@
 .footer__item-twitter:hover {
     background:#F16D7F;
 }
+
+@media (max-width: $tablet-width){
+    .footer__card{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    }
+
+    .footer__subscribe{
+    margin-top: 48px;
+    margin-bottom: 140px;
+    }
+}
+
+@media (max-width:$mobile-width){
+    .footer__reserved-block{
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    padding-top: 43px;
+    flex-direction: column-reverse;
+    }
+    
+
+    .footer__reserved{
+        min-height: 143px;
+    }
+
+
+    .footer__list{
+        margin:0;
+    }
+
+    .footer__text-reserved{
+    padding-top: 40px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FBFBFB;
+    }
+}

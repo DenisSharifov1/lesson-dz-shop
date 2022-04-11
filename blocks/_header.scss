@@ -140,3 +140,18 @@
     margin-top: 37px;
     margin-bottom: 24px;
 }
+
+        /** планшет **/
+    @media (max-width: $desktop-width){
+
+}
+
+        /** мобилка **/
+    @media (max-width: $mobile-width){
+        .header__menu-item-persona{
+            display: none;
+        }
+        .header__menu-item-basket{
+            display: none;
+        }
+    }   

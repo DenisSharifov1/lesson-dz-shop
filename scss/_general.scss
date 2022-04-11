@@ -21,7 +21,12 @@ body {
 
 
 .container {
-    width: 1140px;
+    max-width: 1140px;
     margin: 0 auto;
 }
 
+@media (max-width: $desktop-width) {
+    .container{
+        width: 92%; 
+    }
+}

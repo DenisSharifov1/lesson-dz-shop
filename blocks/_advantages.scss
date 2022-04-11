@@ -68,3 +68,21 @@
     padding-top: 16px;
     width: 300px;
 }
+
+@media (max-width: $tablet-width){
+    .advantages__list {
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .advantages__item{
+        padding-top: 48px;
+    }
+
+    .advantages__item-text-quality{
+        padding-bottom: 64px;
+    }
+
+}
