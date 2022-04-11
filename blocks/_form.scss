@@ -18,6 +18,12 @@
     opacity: 0.6;
 }
 
+.form__input-text-one:hover,
+.form__input-text-one:focus {
+    outline: 1px solid #F26376;
+    cursor: pointer;
+}
+
 .form__input-text-two{
     width: 360px;
     height: 45px;
@@ -32,12 +38,19 @@
     opacity: 0.6;
 }
 
+.form__input-text-two:hover,
+.form__input-text-two:focus{
+    outline: 1px solid #F26376;
+    cursor: pointer;
+}
+
 .form__input-radio-male{
     font-weight: 300;
     font-size: 11px;
     line-height: 13px;
     color: #000000;
 }
+
 
 .form__input-radio-male-span{
     padding-left: 10px;
@@ -76,6 +89,12 @@
     opacity: 0.6;
 }
 
+.form__input-text-email:hover,
+.form__input-text-email:focus{
+    outline: 1px solid #F26376;
+    cursor: pointer;
+}
+
 .form__input-text-password{
     width: 360px;
     height: 45px;
@@ -87,6 +106,12 @@
     box-sizing: border-box;
     padding-left: 17px;
     opacity: 0.6;
+}
+
+.form__input-text-password:hover,
+.form__input-text-password:focus{
+    outline: 1px solid #F26376;
+    cursor: pointer;
 }
 
 .form__text-input-form{
@@ -113,11 +138,17 @@
     font-weight: 300;
     font-size: 13px;
     line-height: 16px;
-    color: #B1B1B1;
+    color: black;
     box-sizing: border-box;
     padding-left: 16px;
     opacity: 0.5;
     border: 1px solid #A4A4A4;
+}
+
+.form__input-bangladesh:hover,
+.form__input-bangladesh:focus{
+    outline: 1px solid #F26376;
+    cursor: pointer;
 }
 
 .form__input-state{
@@ -127,11 +158,17 @@
     font-weight: 300;
     font-size: 13px;
     line-height: 16px;
-    color: #B1B1B1;
+    color: black;
     box-sizing: border-box;
     padding-left: 16px;
     opacity: 0.5;
     border: 1px solid #A4A4A4;
+}
+
+.form__input-state:hover,
+.form__input-state:focus {
+  outline: 1px solid #F26376;
+  cursor: pointer;
 }
 
 .form__input-postcode{
@@ -141,9 +178,15 @@
     font-weight: 300;
     font-size: 13px;
     line-height: 16px;
-    color: #B1B1B1;
+    color: black;
     box-sizing: border-box;
     padding-left: 16px;
     opacity: 0.5;
     border: 1px solid #A4A4A4;
+}
+
+.form__input-postcode:hover,
+.form__input-postcode:focus {
+  outline: 1px solid #F26376;
+  cursor: pointer;
 }
