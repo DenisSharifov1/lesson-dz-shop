@@ -18,6 +18,7 @@
 .product__list-card-one {
     display: grid;
     grid-template-columns: 33% 33% 33%;
+    justify-content: center;
 }
 
 .product__item-background {
@@ -190,6 +191,12 @@
     padding-top: 18px;
 }
 
+.product__list-card-two{
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+
 @media (max-width: $tablet-width){
     .product__list-card-one{ 
     display: grid;
@@ -214,4 +221,11 @@
         margin: 41px 0 96px 0;
 }
 
+}
+
+.product__list{
+    display: grid;
+    grid-template-columns: 34% 34% 32%;
+    justify-content: center;
+    margin: 129px 0 128px 0;
 }

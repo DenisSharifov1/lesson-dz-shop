@@ -131,3 +131,51 @@
     margin-top: 72px;
     margin-bottom: 128px;
 }
+
+.shopping{
+    justify-content: center;
+    display: flex;
+    padding: 65px 0 49px 0;
+}  
+
+.shopping__text{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #6F6E6E;
+    text-transform: uppercase;
+}
+
+.shopping__button-color{
+    border: 0;
+    background: white;
+}
+
+.shopping__button-choose{
+    border: 0;
+    background: white;
+}
+
+.shopping__text-choose{
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+color: #6F6E6E;
+text-transform: uppercase;
+padding-left: 23px;
+}
+.schopping__text-quantity{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #6F6E6E;
+    text-transform: uppercase;
+    padding-left: 23px;
+}
+
+.shopping__button-quantity{
+    border: 0;
+    background: white;
+}
+
+

@@ -1,0 +1,45 @@
+.catalog__list{
+    display: flex;
+    margin: 64px 0 100px 0;
+    justify-content: center;
+}
+
+.catalog__item-svg{
+    fill: #6F6E6E;
+    padding-right: 17px;
+}
+
+.catalog__item-link{
+    text-decoration: none;
+    padding-right: 17px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    color: #6F6E6E;
+}
+
+.catalog__item-link:hover{
+    color: #F16D7F;
+}
+
+.catalog__item-link-six{
+    color: #6F6E6E;
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    
+}
+
+.catalog__item-link-six:hover{
+    color: #F16D7F;
+}
+
+.catalog__item-svg-item{
+    fill: #6F6E6E;
+}
+
+.catalog__item-link-ellipsis{
+    text-decoration: none;
+    color: #6F6E6E;
+}

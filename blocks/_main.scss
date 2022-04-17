@@ -25,3 +25,67 @@
     text-transform: uppercase;
     padding: 59px 0 60px;
 }
+
+.main__nav{
+    background: #F8F3F4;
+    min-height: 148px;
+}
+
+.main__nav-menu{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 59px;
+}
+
+.main__nav-title{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #F16D7F;
+    text-transform: uppercase;
+}
+
+.main__nav-list{
+    display: flex;
+}
+
+.main__nav-item{    
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+}
+
+
+.main__nav-item-item{
+    text-decoration: none;
+    color: #636363;
+    
+}
+
+.main__nav-item-span{
+    padding: 0 5px;
+}
+
+.main__nav-item-item-arrivals{
+    color: #F16D7F;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    text-decoration: none;
+}
+
+
+@media (max-width: $mobile-width){
+.main__registration-title{
+    text-align: center;
+    }
+
+}
+
+.main__img{
+    display: flex;
+    justify-content: center;
+    background: #F7F7F7;
+}

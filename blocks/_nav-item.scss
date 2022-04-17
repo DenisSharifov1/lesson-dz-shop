@@ -29,3 +29,55 @@
     margin-bottom: 22px;
     margin-top: 22px;
 }
+
+.nav__filter{
+    display: none;
+    position:absolute;
+    top: 100%;
+    width: 370px;
+    height: 590px;
+    z-index: 100;
+    background: #FFFFFF;
+    opacity: 0.9;
+}
+
+.nav__filter-titlle{
+    padding-top: 24px;
+    padding-left: 11px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #EF5B70;
+    text-transform: uppercase;
+}
+
+.nav__filter-stripe{
+    opacity: 0.3;
+    width: 327px;
+    margin-top: 11px;
+    margin-left: 5px;
+}
+
+.nav__filter-list{
+    padding-left: 11px;
+    padding-top: 24px;
+}
+
+.nav__filter-item{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #6F6E6E;
+    padding-bottom: 11px;
+}
+
+.nav__filter-item:hover{
+    color:#EF5B70;
+}
+
+.nav__filter-stripe{
+    opacity: 0.3;
+    width: 327px;
+    margin-top: 11px;
+    margin-left: 5px;
+}
