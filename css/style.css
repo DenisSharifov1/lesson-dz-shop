@@ -1131,6 +1131,10 @@ body {
   padding-left: 10px;
 }
 
+.button__svg-basket:hover {
+  opacity: 0.5;
+}
+
 .button__button-cart {
   padding: 14px 65px 14px 72px;
   border: 1px solid #FF6A6A;
@@ -1452,6 +1456,13 @@ body {
   grid-template-columns: 34% 34% 32%;
   justify-content: center;
   margin: 129px 0 128px 0;
+}
+
+.product__list-one {
+  display: grid;
+  grid-template-columns: 34% 34% 32%;
+  justify-content: center;
+  margin: 0 0 48px 0;
 }
 
 .advantages {
