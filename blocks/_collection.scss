@@ -1,0 +1,53 @@
+.collection{
+    border: 1px solid #EAEAEA;
+    height: 601px;
+}
+
+.collection__title{
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: #F16D7F;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 64px 0 12px 0;
+}
+
+.collection__img{
+    margin-left: 541px;
+}
+
+.collection__title-moschino{
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    color: #4D4D4D;
+    text-transform: uppercase;
+    padding: 12px 0 48px 0;
+    text-align: center;
+}
+
+.collection__text{
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #5E5E5E;
+    width: 555px;
+    padding-left: 291px;
+}
+
+.collection__text-price{
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    color: #EF5B70;
+    text-align: center;
+    padding: 32px 0 65px 0;
+}
+
+.collection__feature{
+    width: 641px;
+    opacity: 0.3;
+}
+

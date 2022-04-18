@@ -1,0 +1,68 @@
+.filter{
+    display: flex;
+    margin-top: 51px;
+    margin-bottom: 64px;
+    position: relative;
+}
+
+.filter-title{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    text-transform: uppercase;
+}
+
+.filter-title:hover{
+    color:#F16D7F;
+}
+
+.filter-button{
+    border: 0;
+    background: white;
+    padding-left: 11px;
+    padding-bottom: 4px;
+}
+
+.filter-img-icon{
+    fill:#000000;
+
+}
+
+.filter-img-icon:hover{
+    fill: #F16D7F;
+}
+
+.filter-button:hover + .nav__filter,
+.filter-button:focus + .nav__filter {
+    display: block;
+}
+
+
+.filter__title-brand{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #6F6E6E;
+    padding: 32px 0 2px 11px;
+    text-transform: uppercase;
+}
+
+.filter__title-designer{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #6F6E6E;
+    padding: 26px 0 2px 11px;
+    text-transform: uppercase;
+}
+
+.filter__title-brand:hover{
+    color:#EF5B70;
+}
+
+
+
+.filter__title-designer:hover{
+    color:#EF5B70;
+}
