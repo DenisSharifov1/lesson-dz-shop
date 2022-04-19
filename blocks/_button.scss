@@ -81,6 +81,10 @@
     box-shadow: 17px 18px 8px 0px rgb(34 60 80 / 20%);
 }
 
+.shopping__invisible{
+    display: none;
+}
+
 .button__shopping-cart:hover{
     background:#F26376;
     color: white; 
@@ -132,15 +136,6 @@
     background: white;
 }
 
-@media (max-width:$mobile-width){
-
-.button__type-registration{
-    border-radius: 30px;
-    margin-bottom: 20px;
-}
-
-}
-
 .button{
     display: flex;
     justify-content: center;
@@ -152,11 +147,10 @@
     padding-right: 145px;
 }
 
-
-
 .button__svg-basket{
-    fill: white;
-    padding-left: 10px;
+    fill: #FF6A6A;
+    position: absolute;
+    margin-left: 494px;
 }
 
 .button__svg-basket:hover{
@@ -166,11 +160,45 @@
 .button__button-cart{
     padding: 14px 65px 14px 72px;
     border: 1px solid #FF6A6A;
-    background-color:#F26376;
+    background-color:white;
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
-    color: white;
+    color: #FF6A6A;
     border-radius: 5px;
+    margin-left: 464px;
+}
+
+@media (max-width:$tablet-width){
+    .button__svg-basket {
+        margin-left: 297px;
+    }
+    
+    .button__button-cart {
+        margin-left: 276px;
+    }
+    
+}
+
+@media (max-width:$mobile-width){
+
+.button__type-registration{
+    border-radius: 30px;
+    margin-bottom: 30px;
+    padding: 18px 33px 17px 29px;
+}
+
+    .button__img-stels{
+        margin-left: 8px;
+    }
+
+    .button__button-cart {
+        margin-left: 74px;
+    }
+
+    .button__svg-basket {
+        margin-left: 103px;
+    }
+    
 }
 

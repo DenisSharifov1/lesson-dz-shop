@@ -225,10 +225,14 @@
 
     .footer__nav{
         width: 100%;
+        justify-content: center;
     }
 
     .footer__nav-input{
-        width: 92%;
+        width: 100%;
     }
 
+    .footer__nav-submit{
+        width: 30%;
+    }
 }

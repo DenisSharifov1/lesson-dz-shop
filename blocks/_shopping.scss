@@ -40,6 +40,9 @@
     background-color: white;
 }
   
+.shopping__svg{
+    padding-bottom: 30px;
+}
 
 .shopping__img-menu:hover{
     fill: #F16D7F;
@@ -176,6 +179,235 @@ padding-left: 23px;
 .shopping__button-quantity{
     border: 0;
     background: white;
+}
+
+    .shopping__number{
+        display: flex;
+    }
+
+    .shopping__number-input{
+    width: 31px;
+    padding: 0;
+    padding-left: 10px;
+    margin-left: 25px;
+    margin-top: 8px;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 12px;
+    color: black;
+    border: 0;
+    }
+
+    .shopping__number-input:hover,
+    .shopping__number-input:focus{
+        outline: 1px solid #F26376;
+        cursor: pointer;
+    }
+
+@media (max-width:$tablet-width){
+    .shopping__nav{
+        display: none;
+    }
+
+    .price__menu{
+        display: none;
+    }
+
+    .shopping__invisible{
+        display: block;
+        display: flex;
+    }
+
+    .price__menu-invisible{
+    background: #F5F3F3;
+    width: 360px;
+    height: 214px;
+    margin-left: 16px;
+    margin-top: 38px;
+    }
+
+    .shopping__cart-people{
+        margin-top: 59px;
+        margin-right: 41px;
+    }
+
+    .shopping__list-menu{
+        width: 465px;
+    }
+
+    .shopping__svg{
+        padding-left: 78px;
+    }
+
+    .shopping__button{
+        text-align: center;
+        margin-bottom: 64px;
+    }
+
+    .button__continue-shopping{
+        margin-left: 49px;
+    }
+
+    .shopping__nav-invisible{
+        padding-left: 16px;
+    }
+
+    .button__form-quote{
+        margin-bottom: 128px;
+    }
+
+    .shopping__cart-people-negro{
+        margin-right: 41px;
+    }
+
+}
+
+@media (max-width: $mobile-width){
+    .shopping__cart-people{
+    margin-left: 10px;
+    }
+
+    .shopping__people-img{
+        width: 143px;
+        height: 188px; 
+    }
+
+    .shopping__list-menu{
+        width: 214px;
+        height: 188px;
+    }
+
+    .shopping__link-menu{
+        margin-left: 17px;
+    }
+
+    .shopping__title-menu{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        width: 141px;
+    }
+    .shopping__img-menu{
+        margin-left: 0;
+    }
+
+
+    .shopping__svg{
+        padding-left: 32px;
+        width: 10px;
+        height: 11px;
+        padding-top: 5px;
+    }
+
+    .shopping__text-menu-price{
+    margin-top: 9px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #575757;
+    margin-bottom: 4px;
+    text-transform: none;
+    }
+
+    .shopping__text-menu-color{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #575757;
+    margin-bottom: 4px;
+    text-transform: none;
+    }
+
+    .shopping__text-menu-size{
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+        color: #575757;
+        margin-bottom: 4px;
+        text-transform: none;
+    }
+
+    .shopping__text-menu-quantity{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #575757;
+    text-transform: none;
+    }
+
+    .shopping__number-input{
+        font-size: 14px;
+        width: 14px;
+    }
+
+    .shopping__button{
+        display: flex;
+        margin-top: 30px;
+    }
+
+    .button__shopping-cart{
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 14px;
+        color: #575757;
+        text-transform: none;
+        width: 174px;
+        height: 32px;
+    }
+
+    .button__continue-shopping{
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 14px;
+        text-align: center;
+        color: #575757;
+        text-transform: none;
+        margin-left: 10px;
+        width: 174px;
+        height: 32px;
+    }
+
+    .shopping__invisible{
+        flex-direction: column;
+    }
+
+    .button__form-quote{
+        text-transform: none;
+        margin-bottom: 0;
+        margin-top: 24px;
+
+    }
+
+    .price__menu-invisible{
+        margin: 96px 0 48px 8px;
+    }
+
+    .shopping__cart-people-negro{
+        margin-left: 10px;
+    }
+
+    .shopping__text{
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    }
+
+    .shopping__text-choose{
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    }
+
+    .schopping__text-quantity{
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    }
+
+    .shopping{
+        padding: 49px 0 51px 0;
+    }
+
 }
 
 

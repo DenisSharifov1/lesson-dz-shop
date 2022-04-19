@@ -22,6 +22,45 @@
     line-height: 17px;
     color: #6F6E6E;
     text-transform: uppercase;
-    padding-left: 70px;
+    padding-left: 26px;
 }
 
+@media (max-width:$tablet-width){
+    .text__trending{
+    padding-left: 317px;   
+    }
+    .text__price{
+    padding-left: 12px;
+    }
+
+    .text__size{
+    padding-left: 22px;
+    }
+}
+
+@media (max-width: $mobile-width){
+    .text__trending{
+        font-size: 12px;
+        line-height: 14px;
+        padding-left: 72px;
+    }
+
+    .text__size{
+        font-size: 12px;
+        line-height: 14px;
+        padding-left: 10px;
+    }
+
+    .text__price{
+    font-size: 12px;
+    line-height: 14px;
+    padding-left: 10px;
+    }
+
+    .button__svg{
+        padding-bottom: 5px;
+        padding-left: 3px;
+    }
+    
+
+}

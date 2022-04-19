@@ -43,3 +43,13 @@
     text-decoration: none;
     color: #6F6E6E;
 }
+
+@media (max-width: $tablet-width){
+    .catalog__list{
+    margin: 40px 0 63px 0;
+    display: flex;
+    justify-content: center;
+    }
+    
+}
+
