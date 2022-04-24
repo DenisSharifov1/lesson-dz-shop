@@ -76,16 +76,36 @@
     text-decoration: none;
 }
 
-
-@media (max-width: $mobile-width){
-.main__registration-title{
-    text-align: center;
-    }
-
-}
-
 .main__img{
     display: flex;
     justify-content: center;
     background: #F7F7F7;
 }
+
+@media (max-width: $mobile-width){
+    .main__registration-title{
+    text-align: center;
+    }
+    
+    .main__nav-menu{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 0;
+    }
+
+    .main__nav-title{
+        padding: 24px 0 32px 0;
+    }
+
+    .main__shopping-cart-title{
+        text-align: center;
+    }
+
+    .main__img{
+        width: 100%;
+    }
+
+}
+

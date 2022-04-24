@@ -5,19 +5,20 @@
     position: relative;
 }
 
-.filter-title{
+.filter__title{
     font-weight: 600;
     font-size: 14px;
     line-height: 17px;
     color: #000000;
     text-transform: uppercase;
+    padding-left: 10px;
 }
 
-.filter-title:hover{
+.filter__title:hover{
     color:#F16D7F;
 }
 
-.filter-button{
+.filter__button{
     border: 0;
     background: white;
     padding-left: 11px;
@@ -33,8 +34,8 @@
     fill: #F16D7F;
 }
 
-.filter-button:hover + .nav__filter,
-.filter-button:focus + .nav__filter {
+.filter__button:hover + .nav__filter,
+.filter__button:focus + .nav__filter {
     display: block;
 }
 
@@ -65,4 +66,26 @@
 
 .filter__title-designer:hover{
     color:#EF5B70;
+}
+
+
+@media(max-width:$tablet-width){
+    .filter{
+    margin-top: 21px;
+    margin-bottom: 41px;
+    }
+
+    .filter__title{
+        padding-left: 0;
+    }
+}
+
+@media (max-width: $mobile-width){
+    .filter__title{
+        display: none;
+    }
+
+    .filter__button{
+        padding-left: 0;
+    }
 }
